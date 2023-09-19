@@ -5,7 +5,7 @@ export default class Request {
     // this.httpURL = `http://localhost:${port}`;
     // this.wsURL = `ws://localhost:${port}`;
     this.httpURL = 'https://ahj-hw-8-bvv.onrender.com';
-    this.wsURL = 'ws://ahj-hw-8-bvv.onrender.com';
+    this.wsURL = 'wss://ahj-hw-8-bvv.onrender.com';
   }
 
   async postNewUser(payload) {
